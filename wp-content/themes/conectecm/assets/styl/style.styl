@@ -1,0 +1,608 @@
+/*-------------
+---
+--- variaveis de configuração
+---
+-------------*/
+
+color_orange = #f9a435
+color_orange_forte = #DC7D00
+
+.open
+  display block !important
+   
+.esconder
+  display none !important
+  
+.subtitle
+  padding 0
+   
+/*-------------
+---
+--- globais
+---
+-------------*/
+
+a
+   color color_orange_forte
+   &:hover, &:focus
+      color   color_orange_forte
+      text-decoration underline
+
+.text-center
+  text-align center
+  
+.text-left
+  text-align left
+  
+.text-right
+  text-align right
+  
+.callback
+  text-align left
+  line-height 1
+  margin-bottom 15px
+  color gray
+
+.callback .error
+  color red
+
+.callback .success
+  color green
+
+.callback .info
+  color yellow
+  
+.dark-title-with-bord:after,
+.title-with-bord:after
+  content ""
+  color color_orange
+  margin-top 30px
+  border-bottom 1px solid
+  width 75px
+  margin-left auto
+  margin-right auto
+  
+.title-with-bord
+  color #333
+  
+section.our-services
+  padding-bottom 0
+  
+.btn
+  background-color color_orange
+  
+.preloader
+  position fixed
+  background-color white
+  top 0
+  right 0
+  bottom 0
+  left 0
+  z-index 9999999999
+  line-height 0
+  text-align center
+  display none
+  img
+    position absolute
+    top: 50%
+    margin-top -32px
+    margin-left -32px
+    
+.feature-icon .hi-icon
+  color color_orange
+
+.feature-box:hover .hi-icon-effect-8 .hi-icon
+  color white
+  background-color color_orange
+  
+.feature-service .hi-icon-effect-8 .hi-icon
+  line-height 1
+  
+
+#top
+  position fixed
+  bottom 50px
+  right 50px
+  background-color transparent
+  color orange
+  font-size 32px
+  line-height 1
+  border 2px solid color_orange
+  padding 5px 10px
+  border-radius 2px
+  -webkit-border-radius 2px
+  -moz-border-radius 2px
+  z-index 30
+  &:hover
+    color #333
+  &:focus
+    outline none
+    
+
+.flex_botao
+  display inline-block
+  background-color #f9a435
+  line-height 1
+  position absolute
+  width 57px
+  height 57px
+  bottom 100px
+  left 50%
+  z-index 11
+  margin-left -27.5px
+  border-radius 3px
+  -webkit-border-radius 3px
+  -moz-border-radius 3px
+  box-shadow 0 0 10px rgba(51, 51, 51, 0.35)
+  -webkit-box-shadow 0 0 10px rgba(51, 51, 51, 0.35)
+  -moz-box-shadow 0 0 10px rgba(51, 51, 51, 0.35)
+  text-align center
+  cursor pointer
+  &:hover
+    background-color #a9a9ac
+  > span
+    background-image: url("../../imgs/conecte/icones/001.png")
+    position absolute
+    width 22px
+    height 31px
+    top 50%
+    margin-top -15.5px
+    left 50%
+    margin-left -11px
+    
+.flex-direction-nav
+  a.flex-prev:before
+    font-family "icomoon"
+    content '\e605'
+  a.flex-next:before
+    font-family "icomoon"
+    content '\e606'
+
+
+.link_web
+  padding-left 20px
+  background-image url("../../imgs/conecte/icones/002.png")
+  background-repeat no-repeat
+  background-position center left
+
+#share_icones a
+  display inline-block
+  font-size 32px
+  margin 0 5px
+  text-decoration none
+  &:hover
+    color #333
+
+.icones
+  &:before
+    content ""
+    display inline-block
+    width 50px
+    height 50px
+    top 50px
+    margin-top -30px
+    left 50%
+    margin-left -25px
+    position absolute
+    background-repeat no-repeat
+    background-position center top
+  &.websites:before
+    background-image url(../../imgs/conecte/icone_websites.png) !important
+  &.designer_grafico:before
+    background-image url(../../imgs/conecte/icone_designer_grafico.png) !important
+  &.midias:before
+    background-image url(../../imgs/conecte/icone_midias.png) !important
+  &.ecommerce:before
+    background-image url(../../imgs/conecte/icone_ecommerce.png) !important
+
+.feature-box:hover
+  .icones:before
+    background-position 0 -50px
+    
+
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        -webkit-box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px orange, 0 0 0 10px rgba(249, 164, 53, 0.5);
+        box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px orange, 0 0 0 10px rgba(249, 164, 53, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+        box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-o-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        -webkit-box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+        box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+        box-shadow: 0 0 0 2px rgba(249, 164, 53, 0.1), 0 0 10px 10px rgb(249, 164, 53), 0 0 0 10px rgba(249, 164, 53, 0.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+/*-------------
+---
+--- .paginacao
+---
+-------------*/
+
+.paginacao
+   text-align center
+   line-height 1
+   margin-bottom 60px
+   .page-numbers
+      background-color #333
+      display inline-block
+      padding 10px 15px
+      text-transform uppercase
+      color white
+      font-size 15px
+      margin 0 2px
+      &:hover, &.current, &:focus
+         background-color color_orange
+         color #333
+         text-decoration none
+         box-shadow 0 2px 0 #333
+
+
+.flexslider
+  margin 94px 0 0
+  padding 0
+  box-shadow none
+  border none
+  &:before
+    content ""
+    display block
+    position absolute
+    top 0
+    right 0
+    bottom 0
+    left 0
+    z-index 10
+    background-image url(../../imgs/conecte/pattern_dots.png)
+    
+a.flex-prev,
+a.flex-next
+   text-align center !important
+   width 50px
+   top 50%
+   margin-top -25px
+   z-index 30
+   &:before
+      font-size 34px
+      line-height 50px
+      
+a.flex-prev
+   left 30px !important
+   
+a.flex-next
+   right 30px !important
+
+
+/*-------------
+---
+--- #header
+---
+-------------*/
+
+#header
+   position relative
+   box-shadow 0 0 5px #ccc
+   -webkit-box-shadow 0 0 5px #ccc
+   -moz-box-shadow 0 0 5px #ccc
+
+
+/*-------------
+---
+--- #clientes
+---
+-------------*/
+
+#clientes
+   margin-top 100px
+   
+#clientes_content
+   margin-top 50px
+
+#clientes_content .cliente
+   display block
+   position relative
+   padding 0
+   margin 0 15px
+   text-align center
+   
+.clientes
+   padding 0 50px
+   //margin 0 -50px
+   position relative
+   .cliente
+      .pb
+         height 150px
+         line-height 150px
+         position relative
+      &:hover .cor
+         opacity 1
+         transition opacity 0.7s
+         -webkit-transition opacity 0.7s
+         -moz-transition opacity 0.7s
+      .cor
+         height 150px
+         width 100%
+         line-height 150px
+         position absolute
+         top 0
+         opacity 0
+         transition opacity 0.7s
+         -webkit-transition opacity 0.7s
+         -moz-transition opacity 0.7s
+
+.clientes .prev,
+.clientes .next
+   position absolute
+   top 50%
+   margin-top -19px
+   font-size 38px
+   line-height 1
+   color #999
+   cursor pointer
+   &:hover
+      color color_orange
+
+.clientes .prev
+   left 0
+   
+.clientes .next
+   right 0
+
+/*-------------
+---
+--- portfolio
+---
+-------------*/
+
+section.portfolio
+  background-color transparent
+
+ul#portfolio-filter,
+#load-infinite
+  background-color color_orange
+  padding 36px 0 21px
+  
+ul#portfolio-filter
+   li
+      margin-bottom 15px
+      a
+         text-decoration none
+  
+.dark-social-icon
+   a
+      display inline-block
+      margin 0 5px 50px
+      width 40px
+      height 40px
+      font-size 22px
+      line-height 40px
+      text-align center
+      padding 0
+      [class^="icon-"], [class*=" icon-"]
+         line-height inherit
+      &:hover, &:focus
+         background-color color_orange
+         color white
+         text-decoration none
+      
+ul#portfolio-filter li.activeFilter a:after
+  content ""
+  border-bottom 1px solid white
+  width 75px
+  
+.img-single-portfolio-content
+  padding-right 120px
+
+/*-------------
+---
+--- #mensagens_sociais
+---
+-------------*/
+
+#mensagens_sociais
+   background-color #454548
+   margin-top 100px
+   text-align center
+   article
+      max-width 760px
+      margin 0 auto   
+#mensagens_sociais article a
+   display block
+   padding 50px 30px
+   &:hover
+      text-decoration none
+
+#mensagens_sociais article p
+   color white
+   font-size 15px
+
+#mensagens_sociais article h1
+  color #fff
+  font-size 17px
+  font-weight normal
+  font-family inherit
+  font-style italic
+  
+#mensagens_sociais article .icon
+   font-size 32px
+   color color_orange
+
+.owl-theme
+  .owl-controls
+    &.clickable
+      margin 0 0 50px
+      line-height 0
+    .owl-page
+      span
+        margin 0 5px
+        border 1px solid color_orange
+        background-color transparent !important
+        opacity 1 !important
+      &.active
+        span
+          background-color color_orange !important
+
+/*-------------
+---
+--- blog
+---
+-------------*/
+
+.post-date
+   border-color color_orange
+   
+.img-post
+   width 100%
+
+#primary-sidebar
+   margin-bottom 60px
+ 
+.tags-widget a
+   &:hover
+      background-color color_orange
+      border-color color_orange_forte
+      text-decoration none
+
+.widget ul li a
+   color color_orange_forte
+   &:hover, &:focus
+      color color_orange_forte
+      
+.single-blog .social-share a
+   &:hover, &:focus
+      color color_orange
+      text-decoration none
+      
+.blog-date:after
+  content ""
+  font-family 'montserratbold'
+  position relative
+  font-size 6px
+  display block
+  border-bottom 1px solid orange
+  width 75px
+  margin-top 30px
+  
+.has-post-thumbnail
+   .blog-desc
+      padding 20px 40px
+
+/*-------------
+---
+--- #contato
+---
+-------------*/
+
+#contato
+  background-color #454548
+   
+#contato_form
+  position relative
+  padding 0 50px
+
+#sucesso_contato_form
+  display none
+  background-color rgb(69, 69, 72)
+  padding 50px 0
+  position absolute
+  z-index 2
+  top 0
+  right 0
+  bottom 0
+  left 0
+
+.contato_form_input
+  display block
+  width: 100%
+  margin-bottom 15px
+  border 1px solid gray
+  color white
+  padding 15.5px 20px
+  background-color: transparent
+  &:focus
+    outline none
+    border-color color_orange
+    
+#send_cotnato
+  position relative
+  width 257px
+  font-size 19px
+  text-align left
+  padding 17px 35px
+  line-height 1
+  border none
+  text-transform uppercase
+  display inline-block
+  background-color color_orange
+  color white
+  font-weight 700
+  &:focus
+    outline none
+  &:hover
+    background-color #333
+
+.footer-social ul
+   li
+      a
+         font-size 28px
+         color #888888
+         width 50px
+         display inline-block
+         padding 0
+         padding-right 3px
+         line-height 1
+         border-right 1px solid #888
+         &:hover
+            color white
+            text-decoration none
+      &:last-child a
+         border-right none
+         
+
+.footer-bottom
+  background-color transparent
+  border-top none
+  font-size 90%
+  .copyright-footer
+    padding 0
+    margin-bottom 45px
+    p
+      color #888888
+
+@require "media"

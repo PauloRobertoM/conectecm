@@ -1,0 +1,76 @@
+[12-Jan-2023 01:10:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[11-Apr-2023 09:36:13 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[31-May-2023 03:21:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[26-Jul-2023 14:17:38 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[16-Aug-2023 22:31:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[01-Jan-2024 07:08:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[17-Mar-2024 09:41:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[19-Mar-2024 00:52:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[20-Mar-2024 00:52:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[20-Mar-2024 05:32:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[21-Mar-2024 00:51:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[08-Jul-2024 14:48:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[10-Jul-2024 00:14:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[10-Jul-2024 01:49:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[26-Jul-2024 09:47:17 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1
+[07-Nov-2024 18:25:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/404.php on line 1
+[08-Nov-2024 08:40:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/404.php on line 1
+[08-Nov-2024 14:34:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/404.php on line 1
+[25-Jan-2025 08:05:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/conec247/public_html/wp-content/themes/conectecm/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-content/themes/conectecm/index.php on line 1

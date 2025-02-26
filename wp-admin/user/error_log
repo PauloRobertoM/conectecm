@@ -1,0 +1,4 @@
+[30-Nov-2022 18:10:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/user/menu.php on line 10

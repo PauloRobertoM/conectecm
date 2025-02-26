@@ -1,0 +1,140 @@
+[13-Jun-2023 11:07:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[14-Jun-2023 02:08:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/conec247/public_html/wp-admin/includes/media.php:64
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/media.php on line 64
+[28-Jun-2023 08:07:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/conec247/public_html/wp-admin/includes/media.php:64
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/media.php on line 64
+[02-Sep-2023 16:41:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[03-Sep-2023 03:39:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[29-Oct-2023 15:15:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/conec247/public_html/wp-admin/includes/media.php:64
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/media.php on line 64
+[31-Oct-2023 09:52:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/conec247/public_html/wp-admin/includes/media.php:64
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/media.php on line 64
+[03-Nov-2023 13:02:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home2/conec247/public_html/wp-admin/includes/media.php:64
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/media.php on line 64
+[27-Dec-2023 10:51:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[27-Dec-2023 10:51:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[27-Dec-2023 10:51:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[28-Dec-2023 12:06:29 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[18-Mar-2024 00:31:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[28-Mar-2024 21:38:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[08-Apr-2024 14:28:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[17-Apr-2024 18:04:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[27-Apr-2024 00:06:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[04-May-2024 13:26:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[09-May-2024 02:02:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[20-May-2024 16:39:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[25-May-2024 23:13:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[27-May-2024 00:03:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[27-May-2024 00:03:58 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[21-Jun-2024 15:26:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[25-Jun-2024 16:43:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[25-Jun-2024 16:53:52 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[29-Jun-2024 13:47:59 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[06-Jul-2024 05:50:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/conec247/public_html/wp-admin/includes/file.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/file.php on line 13
+[09-Jul-2024 23:25:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[20-Aug-2024 17:20:10 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[27-Aug-2024 20:13:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[08-Sep-2024 22:32:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[01-Nov-2024 20:28:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[04-Nov-2024 20:12:33 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
+[17-Jan-2025 05:40:56 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function load_textdomain() in /home2/conec247/public_html/wp-admin/includes/admin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home2/conec247/public_html/wp-admin/includes/admin.php on line 15
